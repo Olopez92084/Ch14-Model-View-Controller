@@ -3,14 +3,12 @@ const sequelize = require("../config/connection");
 const { Post, User, Comment } = require("../models");
 const withAuth = require("../utils/auth");
 
-// GET route for main page
-// withAuth() calls next() anonymous fx OR res.redirect("/login")
+
 router.get("/", withAuth, (req, res) => {
   console.log(req.session);
   console.log("======================");
   Post.findAll({
     where: {
-      // use ID from session
       user_id: req.session.user_id,
     },
     include: [
@@ -29,9 +27,9 @@ router.get("/", withAuth, (req, res) => {
     ],
   })
     .then((dbPostData) => {
-      // serialize data before passing to template
+
       const posts = dbPostData.map((post) => post.get({ plain: true }));
-      // protect route from non logged in users
+  
       res.render("dashboard", { posts, loggedIn: true });
     })
     .catch((err) => {
@@ -65,10 +63,9 @@ router.get("/edit/:id", withAuth, (req, res) => {
         res.status(404).json({ message: "No post with this ID exists!" });
         return;
       }
-      //   serialize data
+
       const post = dbPostData.get({ plain: true });
 
-      //   pass data to template with session variable
       res.render("edit-post", { post, loggedIn: true });
     })
     .catch((err) => {

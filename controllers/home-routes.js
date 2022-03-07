@@ -81,7 +81,6 @@ router.get("/login", (req, res) => {
       res.redirect("/");
       return;
     }
-    // login doesn't need variables so no second argument to render()
     res.render("login");
   });
 

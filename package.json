@@ -1,5 +1,5 @@
 {
-    "name": "the_tech_blog",
+    "name": "tech_blog_db",
     "scripts": {
         "start": "node server.js"
     },

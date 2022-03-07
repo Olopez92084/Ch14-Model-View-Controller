@@ -54,7 +54,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 - Add a .env file with, "DB_NAME=tech_blog_db" in the top line, plus your Username and Password.
 - Enter the command into the terminal "mysql -u root -p" Then enter password.
 - Run the command "source db/schema.sql" then "quit"
-- Then run the command to start the application - node server.js
+- Then run the command to start the application - "node server.js" or "npm start"
 - Logon to "http://localhost:3001/"
 
 # Deployed Heroku Link

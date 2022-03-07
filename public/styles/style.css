@@ -12,17 +12,17 @@
   
   a {
     text-decoration: none;
-    color: #a074c7;
+    color: #070707;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #9f34eb;
+    color: #105db6;
   }
   
   button {
-    background-color: #a074c7;
+    background-color: #0d0d0e;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,7 +33,7 @@
   }
   
   button:hover {
-    background-color: #9f34eb;
+    background-color: #105db6;
   }
   
   .post-list {
@@ -49,7 +49,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #9f34eb;
+    border: 1px solid #080808;
   }
   
   textarea {
@@ -83,7 +83,7 @@
   }
   
   header h1 {
-    font-size: 1em;
+    font-size: 4em;
   }
   
   main {
@@ -97,7 +97,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #a074c7;
+    color: #070707;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -106,15 +106,15 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #9f34eb;
+    color: #1640ca;
   }
   
   .delete-post-btn {
-    background-color: #d41414;
+    background-color: #f70707;
   }
   
   .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: #d3b403;
   }
   
   .post {
@@ -167,3 +167,4 @@
     padding: 1%;
     font-size: 110%;
   }
+  

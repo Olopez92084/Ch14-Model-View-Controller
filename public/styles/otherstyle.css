@@ -1,7 +1,7 @@
 :root {
-    --primary: #ccdad1;
+    --primary: rgb(194, 214, 194);
     --secondary: #9ccbbd;
-    --tertiary: #9154c7;
+    --tertiary: #0c29ce;
     --light-dark: #6f6866;
     --dark: #38302e;
     --border-radius: .3rem;
@@ -499,5 +499,4 @@
       flex: 0 0 100%;
     }
   }
-  
   

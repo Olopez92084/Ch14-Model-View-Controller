@@ -57,6 +57,6 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 - Then run the command to start the application - node server.js
 - Logon to "http://localhost:3001/"
 
-# Heroku Link
+# Deployed Heroku Link
 
-- 
+- https://app-thetechblog1984.herokuapp.com/

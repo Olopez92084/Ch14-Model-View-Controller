@@ -51,7 +51,11 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 - Clone the repository - https://github.com/Olopez92084/Ch14-Model-View-Controller.git
 - Run the command in your terminal - npm install
+- Add a .env file with, "DB_NAME=tech_blog_db" in the top line, plus your Username and Password.
+- Enter the command into the terminal "mysql -u root -p" Then enter password.
+- Run the command "source db/schema.sql" then "quit"
 - Then run the command to start the application - node server.js
+- Logon to "http://localhost:3001/"
 
 # Heroku Link
 
